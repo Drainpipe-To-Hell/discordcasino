@@ -34,6 +34,20 @@ bot.on('message', function (user, userID, channelID, message, evt) {
                 });
             break;
             // Just add any case commands if you want to..
+            case 'pass':
+	            if (params[1] == undefined) {
+                    bot.describe({
+                        to: channelID,
+                        'passes the spliff to ' + user
+	                    break;
+                    )};
+	            }
+	            bot.describe({
+                        to: channelID,
+                        'passes the spliff to ' + params[1]
+	                    break;
+                )};
          }
      }
 });
+

@@ -1,9 +1,9 @@
 
 {
-  "name": "greeter-bot",
+  "name": "GameStation",
   "version": "1.0.0",
-  "description": "My own Discord bot",
+  "description": "Game Station bot",
   "main": "bot.js",
-  "author": "YOUR-NAME-HERE",
+  "author": "GameGear",
   "dependencies": {}
 }
